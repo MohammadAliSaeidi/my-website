@@ -1,0 +1,65 @@
+.hero-section {
+    margin: 5% 10%;
+}
+
+.hero-section .content {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 48px;
+    height: 100%;
+    align-items: center;;
+}
+
+.info-and-action {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.actions {
+    margin-top: 27px;
+}
+
+.actions > * {
+    margin-right: 12px;
+}
+
+.info {
+}
+
+.info p {
+    margin: 0;
+}
+
+.info .expertise {
+    color: #aaaaaa;
+    line-height: 19px;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.info .name {
+    color: var(--fc-light);
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 56px;
+}
+
+.info .introduction {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: justify;
+    color: var(--fc-body);
+}
+
+.my-image img {
+    border-radius: 500px;
+    width: 400px;
+    box-sizing: border-box;
+    border: 20px solid #444444;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
