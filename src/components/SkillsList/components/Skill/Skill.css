@@ -1,0 +1,45 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    padding: 12px 24px;
+    border: 1px solid #333;
+    border-radius: var(--border-radius);
+}
+
+.skill > * {
+    margin: 0;
+}
+
+.skill div > * {
+    margin: 0;
+}
+
+.skill-img-container {
+    margin: 7px 0;
+    box-sizing: border-box;
+    max-width: 32px;
+    min-width: 32px;
+    padding: 0;
+}
+
+.skill-img-container img {
+    width: 100%;
+    object-fit: fill;
+}
+
+.skill .title {
+    color: var(--fc-light);
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    margin: 7px 0;
+}
+
+.skill .description {
+    color: var(--fc-body);
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: justify;
+}

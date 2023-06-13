@@ -1,0 +1,16 @@
+.site-logo {
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.site-logo > .icon {
+    background-color: var(--c-primary);
+    display: inline-block;
+    min-width: 48px;
+    min-height: 48px;
+    text-align: center;
+    border-radius: 48px;
+    margin-right: 8px;
+}

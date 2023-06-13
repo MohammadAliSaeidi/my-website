@@ -1,0 +1,21 @@
+.footer {
+    background-color: var(--c-dark);
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--c-btn-dark);
+    min-height: 56px;
+    max-width: 100%;
+    padding-inline: 3rem;
+    margin-top: 64px;
+}
+
+.contact-link:hover{
+    opacity: 1;
+}
+
+.footer > .contact {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    color: var(--fc-body);
+}

@@ -1,7 +1,11 @@
 import './SectionHeading.css'
 
 export default function SectionHeading({heading}) {
- return(
-     <header className={'section-heading'}>{heading}</header>
- )
+    return (
+        <div className={'section-heading'}>
+            <h2>
+                {heading}
+            </h2>
+        </div>
+    )
 }

@@ -1,0 +1,25 @@
+.contact-link {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    fill: var(--c-gray);
+    color: var(--c-gray);
+    text-decoration: none;
+    opacity: 0.6;
+    font-size: 13px;
+    line-height: 21px;
+    transition-duration: 200ms;
+}
+
+.contact-link > .icon{
+    display: table;
+    height: 100%;
+}
+
+.contact-link > .icon > *{
+    display: table-cell;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}

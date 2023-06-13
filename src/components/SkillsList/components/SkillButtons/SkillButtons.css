@@ -1,0 +1,24 @@
+.skill-button {
+    border-radius: 64px;
+    border: 1px solid var(--c-btn-dark);
+    gap: var(--icon-and-text-gap);
+    color: var(--fc-light);
+    padding-inline: 2.5%;
+}
+
+.skill-button.button {
+    color: var(--fc-light) !important;
+    background: none !important;
+    border-color: #4d4d4d !important;
+}
+
+.skill-button.button:after {
+    background-color: #4d4d4d !important;
+}
+
+.skill-button :nth-child(1) {
+    max-width: 24px;
+    min-width: 24px;
+    object-fit: contain;
+    fill: var(--fc-light);
+}

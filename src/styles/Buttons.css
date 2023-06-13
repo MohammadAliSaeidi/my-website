@@ -4,7 +4,8 @@
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
     outline: none;
     border-radius: 64px;
     z-index: 0;

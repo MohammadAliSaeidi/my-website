@@ -1,3 +1,34 @@
-.section-heading{
-    
+.section-heading {
+color: var(--fc-light);
+    font-weight: 600;
+
+}
+
+.section-heading h2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin: 0 0 32px;
+    font-size: 21px;
+    z-index: 1;
+}
+
+.section-heading h2:before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 100%;
+    background-color: #353535;
+    height: 2px;
+    bottom: 0;
+}
+
+.section-heading h2:after{
+    display: block;
+    position: absolute;
+    content: '';
+    width: 32px;
+    background-color: var(--c-primary);
+    height: 2px;
+    bottom: 0;
 }

@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: var(--c-dark);
+    background-color: var(--c-dark-bg);
 }
 
 code {
@@ -17,8 +17,15 @@ code {
     --fc-light: #f6f6f6;
 
     --c-primary: #3379E0;
-    --c-dark: #222222;
+    --c-dark: #252525;
+    --c-dark-bg: #222222;
     --c-btn-dark: #333333;
+    --c-gray: #ddd;
 
-    --fs-button: 20px;
+    --fs-button: 14px;
+
+    --icon-and-text-gap: 18px;
+
+    --border-radius: 10px;
+    --blur-radius: 16px;
 }
