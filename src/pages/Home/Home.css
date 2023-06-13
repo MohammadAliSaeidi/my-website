@@ -1,0 +1,9 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.home > .content{
+    max-width: 1320px;
+    margin: 0 auto;
+}
