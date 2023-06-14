@@ -11,6 +11,12 @@
     align-items: center;;
 }
 
+@media screen and (max-width: 1024px){
+    .hero-section .content {
+        flex-direction: column;
+    }
+}
+
 .info-and-action {
     display: flex;
     flex-direction: column;

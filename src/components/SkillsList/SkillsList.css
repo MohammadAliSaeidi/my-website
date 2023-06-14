@@ -4,7 +4,6 @@
 
 .skills-list .skills-grid{
     fill: var(--fc-light);
-
     margin-top:24px;
 }
 
@@ -12,7 +11,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 32px;
-    grid-row-gap: 0px;
+    grid-row-gap: 0;
 }
 
 .skill-buttons{

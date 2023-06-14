@@ -1,5 +1,4 @@
 import './HeroSection.css'
-// import bgImage from "../../assets/pictures/bg-nature.jpg";
 import myImage from '../../assets/pictures/mohammadali.jpg'
 
 export default function HeroSection() {
