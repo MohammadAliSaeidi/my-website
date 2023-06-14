@@ -1,0 +1,47 @@
+.skill {
+    display: block;
+    margin-bottom: 16px;
+    padding: 16px 24px;
+    border: 1px solid #333;
+    border-radius: var(--border-radius);
+}
+
+.skill > * {
+    margin: 0;
+}
+
+.skill > .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill > .title > .icon {
+    display: table;
+    text-align: center;
+}
+
+.skill > .title > .icon > svg {
+    display: table-cell;
+    vertical-align: middle;
+    max-width: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    max-height: 24px;
+    object-fit: contain;
+}
+
+.skill > .title > .name {
+    color: var(--fc-light);
+    font-size: 16px;
+    line-height: 1.75;
+    font-weight: 600;
+}
+
+.skill > .description {
+    color: var(--fc-body);
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 400;
+}

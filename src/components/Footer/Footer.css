@@ -5,11 +5,12 @@
     border-top: 1px solid var(--c-btn-dark);
     min-height: 56px;
     max-width: 100%;
+    overflow: hidden;
     padding-inline: 3rem;
-    margin-top: 64px;
+    margin-top: 2rem;
 }
 
-.contact-link:hover{
+.contact-link:hover {
     opacity: 1;
 }
 
@@ -18,4 +19,16 @@
     flex-direction: row;
     gap: 36px;
     color: var(--fc-body);
+}
+
+@media screen and (max-width: 480px) {
+    .footer{
+        padding-block: 2rem;
+        margin-top: 1rem;
+    }
+
+    .footer > .contact {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }

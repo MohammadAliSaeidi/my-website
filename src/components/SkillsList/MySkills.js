@@ -13,19 +13,19 @@ export const MySkills = [
         name: 'React',
         description: 'HTML, CSS, JavaScript, JSX, React, Functional Components, Class Components, Component Life Cycle, States, Conditional Rendering, List and Keys, Events, Render Props, Refs, useState, useEffect, useMemo, useRef, useReducer, useContext, Custom Hooks, JSX, React Router, Basic Knowledge of Redux, Material UI, Ant Design, Axios, Basic Knowledge of Next.js, Knowledge about SSG, SSR, and CSR.',
         icon: <ReactIcon/>,
-        id: 0
+        id: 0,
     },
     {
         name: 'Git',
         description: '',
         icon: < GitIcon/>,
-        id: 1
+        id: 1,
     },
     {
         name: 'Design Patterns',
         description: 'Common Design Patterns like Singleton, MVC, Abstract Factory, etc.',
         icon: <DesignPatternIcon/>,
-        id: 2
+        id: 2,
     },
     {
         name: 'Agile Principles and Methodologies – Scrum, Microsoft Azure DevOps, Jira',
@@ -49,7 +49,7 @@ export const MySkills = [
         name: 'Adobe Photoshop',
         description: '',
         icon: <PhotoshopIcon/>,
-        id: 6
+        id: 6,
     },
     {
         name: 'Adobe Illustrator',
