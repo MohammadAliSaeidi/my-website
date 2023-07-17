@@ -6,8 +6,13 @@
     border-radius: var(--border-radius);
 }
 
-.skill > * {
+.skill *{
     margin: 0;
+}
+
+.skill .description p,
+.skill ul{
+    margin: 16px 0 0;
 }
 
 .skill > .title {
