@@ -3,7 +3,7 @@
     position: sticky;
     top: 0;
     background-color: rgba(37, 37, 37, 0.6);
-    border-bottom: 1px solid var(--c-btn-dark);
+    border-bottom: 1px solid var(--c-border);
     backdrop-filter: blur(var(--blur-radius));
     display: flex;
     flex-direction: row;

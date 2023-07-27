@@ -28,13 +28,6 @@
     color: #aaaaaa;
     line-height: 19px;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 10px;
-}
-
-.introduction > .summary {
-    font-size: 14px;
-    line-height: 25px;
-    font-weight: 400;
-    color: var(--fc-body);
 }

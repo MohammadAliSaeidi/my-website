@@ -6,10 +6,14 @@
     fill: var(--c-gray);
     color: var(--c-gray);
     text-decoration: none;
-    opacity: 0.6;
     font-size: 13px;
     line-height: 21px;
     transition-duration: 200ms;
+    opacity: 0.6;
+}
+
+.contact-link:hover {
+    opacity: 1;
 }
 
 .contact-link > .icon{

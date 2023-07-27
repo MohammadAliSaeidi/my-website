@@ -1,19 +1,17 @@
 import './SkillsList.css'
-import SectionHeading from "../SectionHeading";
 import Skill from "./Skill";
-import {MySkills} from "./MySkills";
+import {SkillsData} from "./SkillsData";
 
 export default function SkillsList() {
 
-	const skills = MySkills.map((skill) => (
+	const skills = SkillsData.map((skill) => (
 		<Skill skill={skill}/>
 	));
 
 	return (
 		<div className="skills-list">
-			<SectionHeading heading={"MY SKILLS"}/>
-
-			<div className="skills-grid">{skills}</div>
+			<h2 className='h2'>SKILLS</h2>
+			<div className="list">{skills}</div>
 		</div>
 	);
 }

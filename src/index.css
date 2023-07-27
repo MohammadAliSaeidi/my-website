@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: var(--c-dark-bg);
+    background-image: var(--dark-bg);
 }
 
 input,
@@ -24,16 +24,20 @@ code {
     --fc-heading: #333333;
     --fc-light: #f6f6f6;
 
+    --fs-body: 0.875rem;
+    --fs-h2: 1.3125rem;
+    --fs-h3: 1.125rem;
+
     --c-primary: #3379E0;
     --c-dark: #252525;
-    --c-dark-bg: #222222;
-    --c-btn-dark: #333333;
-    --c-gray: #ddd;
-
-    --fs-button: 14px;
+    --c-border: #333333;
+    --c-gray: #bbb;
+    --c-transparent-background: rgba(128, 128, 128, 0.1);
 
     --icon-and-text-gap: 18px;
 
     --border-radius: 10px;
-    --blur-radius: 8px;
+    --blur-radius: 24px;
+
+    --dark-bg: linear-gradient(to right top, #072E3D -50%, #07090C 30%, #07090C 70%, #30122A 150%);
 }

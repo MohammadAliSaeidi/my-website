@@ -9,11 +9,11 @@
     outline: none;
     border-radius: 64px;
     z-index: 0;
-    background: var(--c-btn-dark);
+    background: var(--c-border);
     overflow: hidden;
     border: 2px solid var(--c-primary);
     color: white;
-    font-size: var(--fs-button);
+    font-size: var(--fs-body);
     font-weight: normal;
 }
 
@@ -50,5 +50,5 @@
 }
 
 .normal-button:hover{
-    color: var(--c-btn-dark);
+    color: var(--c-border);
 }

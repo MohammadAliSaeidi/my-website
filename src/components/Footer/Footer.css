@@ -1,24 +1,20 @@
 .footer {
-    background-color: var(--c-dark);
+    background-color: var(--c-transparent-background);
     display: flex;
     align-items: center;
-    border-top: 1px solid var(--c-btn-dark);
+    border-top: 1px solid var(--c-border);
     min-height: 56px;
     max-width: 100%;
     overflow: hidden;
     padding-inline: 3rem;
     margin-top: 2rem;
-}
-
-.contact-link:hover {
-    opacity: 1;
+    backdrop-filter: blur(--blur-radius);
 }
 
 .footer > .contact {
     display: flex;
     flex-direction: row;
     gap: 36px;
-    color: var(--fc-body);
 }
 
 @media screen and (max-width: 480px) {

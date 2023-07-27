@@ -3,4 +3,45 @@
     hyphens: auto;
     -webkit-hyphens: auto;
     word-spacing: -0.05em;
+    color: var(--fc-body);
+    font-size: var(--fs-body);
+    line-height: 2;
 }
+
+.h2 {
+    color: var(--fc-light);
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin: 48px 0 16px;
+    font-size: var(--fs-h2);
+    z-index: 1;
+}
+
+.h2:before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 100%;
+    background-color: #353535;
+    height: 2px;
+    bottom: 0;
+}
+
+.h2:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 32px;
+    background-color: var(--c-primary);
+    height: 2px;
+    bottom: 0;
+}
+
+.h3 {
+    color: var(--fc-light);
+    font-size: var(--fs-h3);
+    font-weight: normal;
+}
+

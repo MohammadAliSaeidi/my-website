@@ -1,25 +1,8 @@
-.skills-list {
-    display: block;
-    margin-inline: 48px;
-}
-
-@media screen and (max-width: 1024px) {
-    .skills-list {
-        margin-inline: 16px;
-    }
-}
-
-.skills-list > .skills-grid {
+.skills-list > .list {
     fill: var(--fc-light);
     margin-top: 24px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 32px;
     grid-row-gap: 0;
-}
-
-.skill-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
 }

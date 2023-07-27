@@ -1,17 +1,23 @@
-.skill {
-    display: block;
-    margin-bottom: 16px;
-    padding: 16px 24px;
-    border: 1px solid #333;
-    border-radius: var(--border-radius);
+.skill-container {
+
 }
 
-.skill *{
+.skill {
+    display: block;
+    padding: 16px 24px;
+    margin-bottom: 16px;
+    border: 1px solid #333;
+    border-radius: var(--border-radius);
+    backdrop-filter: blur(8px);
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.skill * {
     margin: 0;
 }
 
 .skill .description p,
-.skill ul{
+.skill ul {
     margin: 16px 0 0;
 }
 
