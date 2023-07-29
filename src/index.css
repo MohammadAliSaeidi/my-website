@@ -28,7 +28,7 @@ code {
     --fs-h2: 1.3125rem;
     --fs-h3: 1.125rem;
 
-    --c-primary: #3379E0;
+    --c-primary: #63c8ff;
     --c-dark: #252525;
     --c-border: #333333;
     --c-gray: #bbb;
@@ -39,5 +39,7 @@ code {
     --border-radius: 10px;
     --blur-radius: 24px;
 
-    --dark-bg: linear-gradient(to right top, #072E3D -50%, #07090C 30%, #07090C 70%, #30122A 150%);
+    --padding-card: 16px 24px;
+
+    --dark-bg: linear-gradient(to right top, #072E3D 0%, #07090C 50%, #07090C 50%, #30122A 100%);
 }

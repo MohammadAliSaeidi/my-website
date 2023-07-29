@@ -1,0 +1,26 @@
+.experience {
+    padding: var(--padding-card);
+}
+
+.experience .link {
+    display: inline-block;
+    background: none;
+    cursor: pointer;
+    color: var(--c-primary);
+    text-decoration: none;
+    border: 1px solid var(--c-primary);
+    border-radius: var(--border-radius);
+    padding: 8px 8px 8px 16px;
+    margin-block: 10px;
+    font-size: 14px;
+    transition-duration: 200ms;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-items: center;
+}
+
+.experience .link:hover {
+    color: black;
+    background-color: var(--c-primary);
+}

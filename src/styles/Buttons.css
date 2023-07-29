@@ -7,18 +7,18 @@
     display: flex;
     align-items: center;
     outline: none;
-    border-radius: 64px;
+    border-radius: var(--border-radius);
     z-index: 0;
-    background: var(--c-border);
+    background: none;
     overflow: hidden;
     border: 2px solid var(--c-primary);
-    color: white;
+    color: var(--c-primary);
     font-size: var(--fs-body);
     font-weight: normal;
 }
 
 .button:hover {
-    color: white;
+    color: black;
 }
 
 .button:hover:after {
@@ -49,6 +49,6 @@
     background-color: #d5d5d5;
 }
 
-.normal-button:hover{
+.normal-button:hover {
     color: var(--c-border);
 }

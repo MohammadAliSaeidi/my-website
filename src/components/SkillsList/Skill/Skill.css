@@ -1,15 +1,7 @@
-.skill-container {
-
-}
-
 .skill {
     display: block;
-    padding: 16px 24px;
+    padding: var(--padding-card);
     margin-bottom: 16px;
-    border: 1px solid #333;
-    border-radius: var(--border-radius);
-    backdrop-filter: blur(8px);
-    background-color: rgba(128, 128, 128, 0.1);
 }
 
 .skill * {
@@ -33,7 +25,7 @@
     text-align: center;
 }
 
-.skill > .title > .icon > svg {
+.skill > .title > .icon > * {
     display: table-cell;
     vertical-align: middle;
     max-width: 24px;

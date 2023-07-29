@@ -9,7 +9,7 @@ import Background from "../../components/Background/Background";
 
 export default function Home() {
     return <div className="home">
-        {/*<Background />*/}
+        <Background />
         <Header/>
         <div className={'content'}>
             <HeroSection/>
