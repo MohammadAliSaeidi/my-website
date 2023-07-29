@@ -16,8 +16,8 @@
     }
 }
 
-@media screen and (max-width: 450px){
-    .introduction > .name{
+@media screen and (max-width: 450px) {
+    .introduction > .name {
         font-size: 28px;
         line-height: 48px;
         margin-bottom: 10px;
@@ -25,7 +25,7 @@
 }
 
 .introduction > .expertise {
-    color: #aaaaaa;
+    color: var(--fc-subtitle);
     line-height: 19px;
     font-weight: 300;
     font-size: 1rem;

@@ -1,14 +1,13 @@
 .skill {
     display: block;
     padding: var(--padding-card);
-    margin-bottom: 16px;
 }
 
 .skill * {
     margin: 0;
 }
 
-.skill .description p,
+.skill > .description p,
 .skill ul {
     margin: 16px 0 0;
 }

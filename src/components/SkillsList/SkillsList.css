@@ -1,7 +1,6 @@
 .skills-list > .list {
     fill: var(--fc-light);
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 32px;
-    grid-row-gap: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }

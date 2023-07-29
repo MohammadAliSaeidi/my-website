@@ -7,11 +7,12 @@ export default function HeroSection() {
     return (
         <div className={'hero-section'}>
             <div className={'content'}>
-                <HeroImage />
+                <HeroImage/>
                 <div className={'info-and-action'}>
-                    <Introduction />
+                    <Introduction/>
                     <div className={'actions'}>
-                        {/*<button className={'button primary-button'}>Download Resume</button>*/}
+                        <a className={'button primary-button download-resume'}
+                           href={process.env.PUBLIC_URL + '/resume-files/en-Resume.pdf'}>Download Resume</a>
                         {/*<button className={'button normal-button'}>Contact</button>*/}
                     </div>
                 </div>

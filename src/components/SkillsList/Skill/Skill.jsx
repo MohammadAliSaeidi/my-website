@@ -1,6 +1,5 @@
 import React from 'react';
 import './Skill.css';
-import Tilt from 'react-parallax-tilt';
 
 function Skill({style ,skill}) {
 

@@ -43,5 +43,6 @@
     color: var(--fc-light);
     font-size: var(--fs-h3);
     font-weight: normal;
+    margin-block: 0 0;
 }
 
