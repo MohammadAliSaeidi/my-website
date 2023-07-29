@@ -30,7 +30,7 @@ code {
 
     --c-primary: #63c8ff;
     --c-dark: #252525;
-    --c-border: #333333;
+    --c-border: rgba(255, 255, 255, 0.05);
     --c-gray: #bbb;
     --c-transparent-background: rgba(128, 128, 128, 0.1);
 

@@ -11,7 +11,7 @@ export default function HeroSection() {
                 <div className={'info-and-action'}>
                     <Introduction />
                     <div className={'actions'}>
-                        <button className={'button primary-button'}>Download Resume</button>
+                        {/*<button className={'button primary-button'}>Download Resume</button>*/}
                         {/*<button className={'button normal-button'}>Contact</button>*/}
                     </div>
                 </div>

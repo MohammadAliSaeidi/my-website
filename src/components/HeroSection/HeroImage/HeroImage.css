@@ -2,11 +2,11 @@
     border-radius: 500px;
     width: 400px;
     box-sizing: border-box;
-    border: 20px solid #444444;
+    border: 20px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {
     .my-image img {
         width: 300px;
         border-width: 15px;

@@ -14,7 +14,7 @@
     position: relative;
     display: inline-block;
     padding-bottom: 7px;
-    margin: 48px 0 16px;
+    margin: 48px 0 36px;
     font-size: var(--fs-h2);
     z-index: 1;
 }

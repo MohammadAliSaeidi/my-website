@@ -1,0 +1,40 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience .link {
+    background: none;
+    cursor: pointer;
+    color: var(--c-primary);
+    text-decoration: none;
+    border: 1px solid var(--c-primary);
+    border-radius: var(--border-radius);
+    padding: 8px 8px 8px 16px;
+    margin-block: 10px;
+    font-size: 14px;
+    transition-duration: 200ms;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-items: center;
+}
+
+.experience > .video-wrapper {
+    align-self: center;
+    padding: 0;
+
+}
+
+video {
+    max-width: 100%;
+    margin: 0;
+    border-radius: var(--border-radius);
+    box-sizing: border-box;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+}
+
+.experience .link:hover {
+    color: black;
+    background-color: var(--c-primary);
+}

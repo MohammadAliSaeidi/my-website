@@ -3,8 +3,8 @@
     flex-direction: row;
     gap: 8px;
     align-items: center;
-    fill: var(--c-gray);
-    color: var(--c-gray);
+    fill: var(--fc-light);
+    color: var(--fc-light);
     text-decoration: none;
     font-size: 13px;
     line-height: 21px;

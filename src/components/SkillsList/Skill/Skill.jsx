@@ -5,7 +5,6 @@ import Tilt from 'react-parallax-tilt';
 function Skill({style ,skill}) {
 
     return (
-        <Tilt tiltMaxAngleX={9} tiltMaxAngleY={3} >
             <div key={skill.key} className="card skill">
                 <div className="title">
                     <span className="icon">{skill.icon}</span>
@@ -25,7 +24,6 @@ function Skill({style ,skill}) {
                     </div>
                 )}
             </div>
-        </Tilt>
     );
 }
 
