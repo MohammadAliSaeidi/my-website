@@ -5,7 +5,7 @@ import {SkillsData} from "./SkillsData";
 export default function SkillsList() {
 
 	const skills = SkillsData.map((skill) => (
-		<Skill skill={skill}/>
+		<Skill key={skill.id} skill={skill}/>
 	));
 
 	return (

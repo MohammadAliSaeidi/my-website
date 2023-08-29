@@ -4,7 +4,7 @@ import './Experiences.css'
 import ExperienceItem from "./ExperienceItem";
 
 function Experiences() {
-    const experiences = ExperiencesData.map(expData => <ExperienceItem expData={expData}/>)
+    const experiences = ExperiencesData.map(expData => <ExperienceItem key={expData.id} expData={expData}/>)
 
     return <>
             <h2 className='h2'>Experiences</h2>

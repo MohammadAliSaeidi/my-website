@@ -12,6 +12,7 @@ export const ExperiencesData = [
     //     }]
     // },
     {
+        id: 0,
         title: "Online Food Shop (Pizza) - Redux Practice Project",
         employmentType: null,
         companyName: null,
@@ -26,6 +27,7 @@ export const ExperiencesData = [
         }]
     },
     {
+        id: 1,
         title: "Game Developer",
         employmentType: 'Full-time',
         companyName: "Sarvehana Psychological Research Co",

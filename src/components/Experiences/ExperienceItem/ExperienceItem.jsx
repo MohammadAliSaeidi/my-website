@@ -1,6 +1,5 @@
 import React from 'react';
 import {BsArrowRightShort} from "react-icons/bs";
-// import Tilt from "react-parallax-tilt";
 import './ExperienceItem.css'
 
 function ExperienceItem({expData}) {
@@ -14,7 +13,7 @@ function ExperienceItem({expData}) {
             <div className='location'>{expData.location}</div>
         </div>
         <p className={'justified-paragraph description'}>{expData.description}</p>
-        {expData.links.map(linkData => <ExperienceLink linkData={linkData}/>)}
+        {expData.links.map((linkData, index) => <ExperienceLink key={index} linkData={linkData}/>)}
     </div>
 }
 

@@ -83,7 +83,7 @@ export const SkillsData = [
     {
         name: 'User Experience',
         description: '',
-        icon: <UXLogo />,
-        id: 10
+        icon: <UXLogo/>,
+        id: 11
     },
 ]
