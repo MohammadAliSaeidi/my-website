@@ -1,20 +1,23 @@
-import {ReactComponent as ReactIcon} from "../../assets/pictures/Icons/React-icon.svg";
-import {ReactComponent as NextjsIcon} from '../../assets/pictures/Icons/nextjs.svg'
-import {ReactComponent as GitIcon} from "../../assets/pictures/Icons/git.svg";
-import {ReactComponent as DesignPatternIcon} from "../../assets/pictures/Icons/design-patterns.svg";
-import {ReactComponent as AgileIcon} from "../../assets/pictures/Icons/Agile.svg";
-import {ReactComponent as CleanCodeIcon} from "../../assets/pictures/Icons/code-solid.svg";
-import {ReactComponent as FigmaIcon} from "../../assets/pictures/Icons/figma.svg";
-import {ReactComponent as PhotoshopIcon} from "../../assets/pictures/Icons/photoshop.svg";
-import {ReactComponent as IllustratorIcon} from "../../assets/pictures/Icons/illustrator-icon.svg";
-import {ReactComponent as ReduxIcon} from "../../assets/pictures/Icons/redux.svg";
-import {ReactComponent as UXLogo} from "../../assets/pictures/Icons/UXlogo.svg";
+import { ReactComponent as ReactIcon } from "../../assets/pictures/Icons/React-icon.svg";
+import { ReactComponent as NextjsIcon } from "../../assets/pictures/Icons/nextjs.svg";
+import { ReactComponent as GitIcon } from "../../assets/pictures/Icons/git.svg";
+import { ReactComponent as DesignPatternIcon } from "../../assets/pictures/Icons/design-patterns.svg";
+import { ReactComponent as AgileIcon } from "../../assets/pictures/Icons/Agile.svg";
+import { ReactComponent as CleanCodeIcon } from "../../assets/pictures/Icons/code-solid.svg";
+import { ReactComponent as FigmaIcon } from "../../assets/pictures/Icons/figma.svg";
+import { ReactComponent as PhotoshopIcon } from "../../assets/pictures/Icons/photoshop.svg";
+import { ReactComponent as ReduxIcon } from "../../assets/pictures/Icons/redux.svg";
+import { ReactComponent as UXLogo } from "../../assets/pictures/Icons/UXlogo.svg";
+import { ReactComponent as TailwindCssLogo } from "../../assets/pictures/Icons/Tailwind_CSS_Logo.svg";
+import { ReactComponent as MaterialUI } from "../../assets/pictures/Icons/material-ui.svg";
+import { ReactComponent as AntDesign } from "../../assets/pictures/Icons/ant-design.svg";
+import { ReactComponent as Bootstrap } from "../../assets/pictures/Icons/Bootstrap_logo.svg";
 
 export const SkillsData = [
 	{
 		name: "React",
 		description:
-			"Core Concepts, Hooks, Libraries and Tools like React Router, Material UI, Ant Design, Swiper, Axios, JSON-Server",
+			"Core Concepts, Hooks, Context, Libraries and Tools like React Router, Swiper, Axios, JSON-Server, React hook form, Mongoose",
 		icon: <ReactIcon />,
 		id: 0,
 	},
@@ -26,8 +29,7 @@ export const SkillsData = [
 	{
 		name: "NEXT.js",
 		description:
-			"Dynamic Routing, SSR (Server-Side Rendering), SSG (Static Site Generation), " +
-			"ISR (Incremental Static Regeneration), CSR (Client-Side Rendering)",
+			"Dynamic Routing, SSR, SSG, ISR, CSR, as well as Basic practical knowledge about Mongo DB and Docker",
 		icon: <NextjsIcon />,
 		id: 2,
 	},
@@ -51,11 +53,32 @@ export const SkillsData = [
 		id: 4,
 	},
 	{
+		name: "Material UI",
+		icon: <MaterialUI />,
+		id: 5,
+	},
+	{
+		name: "Ant Design",
+		icon: <AntDesign />,
+		id: 6,
+	},
+	{
+		name: "Tailwind CSS",
+		description: "",
+		icon: <TailwindCssLogo />,
+		id: 7,
+	},
+	{
+		name: "Bootstrap",
+		icon: <Bootstrap />,
+		id: 8,
+	},
+	{
 		name: "Design Patterns",
 		description:
 			"Common Design Patterns like Singleton, MVC, Abstract Factory, etc.",
 		icon: <DesignPatternIcon />,
-		id: 5,
+		id: 9,
 	},
 	{
 		name: "Agile Principles and Methodologies – Scrum, Microsoft Azure DevOps, Jira",
@@ -64,36 +87,30 @@ export const SkillsData = [
 			"Experienced in calculating estimated time for tasks using formula. Experiences participating in meetings " +
 			"to plan and prioritize tasks.",
 		icon: <AgileIcon />,
-		id: 6,
+		id: 10,
 	},
 	{
 		name: "Clean Code principles",
 		description: "",
 		icon: <CleanCodeIcon />,
-		id: 7,
+		id: 11,
 	},
 	{
 		name: "Figma",
 		description: "",
 		icon: <FigmaIcon />,
-		id: 8,
+		id: 12,
 	},
 	{
 		name: "Adobe Photoshop",
 		description: "",
 		icon: <PhotoshopIcon />,
-		id: 9,
-	},
-	{
-		name: "Adobe Illustrator",
-		description: "",
-		icon: <IllustratorIcon />,
-		id: 10,
+		id: 13,
 	},
 	{
 		name: "User Experience",
 		description: "",
 		icon: <UXLogo />,
-		id: 11,
+		id: 14,
 	},
 ];
